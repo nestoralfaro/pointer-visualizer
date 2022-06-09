@@ -2,8 +2,8 @@
 
 Here are a few things to keep in mind before you check it out:
 - This is not a compiler nor an IDE, so do not expect any sort of error handling or correction.
-- This application is mostly for beginners who are trying to understand how pointers work in a language like C++.
-- I am assuming that you are familiar with the C++ syntax, so that is what you should write.
+- This application is mostly for beginners who are trying to understand how pointers work in a language like `C++`.
+- I am assuming that you are familiar with the `C++` syntax, so that is what you should write.
 - Make sure your struct is written like in the snippets. This does not mean that it is the only way nor the best way to write it, but how I parse your code. Otherwise, it may not work as well or be even buggier.
 - Some things may still be a little buggy. Will try my best to fix them promptly. Sorry about that :(
 - Hope you have fun, but mainly that you get to clarify some doubts about pointers :)
