@@ -1,3 +1,5 @@
+![pointer-visualizer-demo](https://user-images.githubusercontent.com/83131937/172932076-d87cdaea-14a8-4c8e-94eb-258d6efb1539.gif)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
