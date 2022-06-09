@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/pointer-visualizer/static/css/main.f7333c47.css",
+    "main.js": "/pointer-visualizer/static/js/main.6ec5086a.js",
+    "static/js/787.1444478b.chunk.js": "/pointer-visualizer/static/js/787.1444478b.chunk.js",
+    "index.html": "/pointer-visualizer/index.html",
+    "static/media/Doubly Linked List.txt": "/pointer-visualizer/static/media/Doubly Linked List.18b4deee7c00f6cc5419.txt",
+    "static/media/Stack.txt": "/pointer-visualizer/static/media/Stack.680caa52f574dc4d76bc.txt",
+    "static/media/Init.txt": "/pointer-visualizer/static/media/Init.ecc44354a2f6c3331dce.txt",
+    "static/media/Queue.txt": "/pointer-visualizer/static/media/Queue.10d69024bb568d9b85a0.txt",
+    "static/media/Singly Linked List.txt": "/pointer-visualizer/static/media/Singly Linked List.61ea3e028aa31c3e591c.txt",
+    "main.f7333c47.css.map": "/pointer-visualizer/static/css/main.f7333c47.css.map",
+    "main.6ec5086a.js.map": "/pointer-visualizer/static/js/main.6ec5086a.js.map",
+    "787.1444478b.chunk.js.map": "/pointer-visualizer/static/js/787.1444478b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f7333c47.css",
+    "static/js/main.6ec5086a.js"
+  ]
+}

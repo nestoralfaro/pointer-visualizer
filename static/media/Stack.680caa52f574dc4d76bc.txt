@@ -1,0 +1,15 @@
+struct Node {
+    auto data;
+    Node* next;
+};
+
+// Allocating dynamic memory
+Node* pop = new Node;
+Node* a = new Node;
+Node* b = new Node;
+Node* top = new Node;
+
+// Setting up Pointers
+pop->next = a;
+a->next = b;
+b->next = top;

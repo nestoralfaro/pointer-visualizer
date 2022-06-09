@@ -1,0 +1,19 @@
+struct Node {
+    Node* prev;
+    auto data;
+    Node* next;
+};
+
+// Allocating dynamic memory
+Node* head = new Node;
+Node* a = new Node;
+Node* b = new Node;
+Node* tail = new Node;
+
+// Setting up Pointers
+head->next = a;
+a->prev = head;
+a->next = b;
+b->prev = a;
+b->next = tail;
+tail->prev = b;
