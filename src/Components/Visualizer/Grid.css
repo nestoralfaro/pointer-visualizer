@@ -1,0 +1,140 @@
+table {
+    display:inline-block;
+    color: #c9d1d9;
+    transition: 1s;
+    border-spacing: 2em;
+    z-index: 2;;
+}
+
+tr {
+    display:block;
+}
+
+.node > td {
+    border: 1px solid #c9d1d9;
+    border-radius: 0.5em;
+    transition: 1s;
+    background-color: #161b22;
+}
+
+.node {
+    border: 0 red dashed;
+    transition: 1s;
+    transform: translateX(70%);
+    border-radius: 0.5em;
+}
+
+.node > div {
+    display: inline;
+    transition: 1s;
+}
+
+.data {
+    background-color: #161b22;
+}
+
+.label {
+    font-size: 2em;
+    padding: 0;
+    border: none;
+}
+                
+.data, .next, .prev, .dangling {
+    font-size: 2em;
+    padding: 0.7em;
+}
+
+.next, .prev {
+    transform: scale(0.80);
+    transition: 1s;
+}
+
+
+.null {
+    width: 1px;
+    height: 1px;
+    border: 10px solid;
+    transform: scaleY(0.3) scaleX(0.35);
+    background-image: linear-gradient(
+        to top left,
+        #161b22 43%, /* substract to increase */
+        #c9d1d9,
+        #161b22 57% /* add to increase */
+    );
+}
+
+.no-pointer > td {
+    background-color: red;
+}
+
+.no-pointer {
+
+    border: 3px red groove;
+}
+
+.no-pointer::before {
+    position: relative;
+    transition: 1s;
+    content: 'Leak!';
+    color: #ff7b72;
+    margin-left: 110%;
+    top: 4.5em;
+}
+
+.null {
+    background-color: #161b22;
+}
+
+.item-enter {
+    opacity: 0;
+  }
+.item-enter-active {
+    opacity: 1;
+    transition: 700ms ease-in;
+}
+.item-exit {
+    opacity: 1;
+}
+.item-exit-active {
+    opacity: 0;
+    transition: 700ms ease-in;
+}
+  
+.data::before{
+    content: 'data';
+    font-size: small;
+    position:absolute;
+    top: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.next::before {
+    content: 'next';
+    font-size: small;
+    position:absolute;
+    top: 0;
+    margin: 0;
+    transform: translateY(-2rem);
+    text-align: center;
+}
+
+.prev::before {
+    content: 'prev';
+    font-size: small;
+    position:absolute;
+    top: 0;
+    margin: 0;
+    transform: translateY(-2rem);
+    text-align: center;
+}
+
+.null:before {
+    content: 'next';
+    font-size: small;
+    position:absolute;
+    transform: scale(2.5) translateY(-2rem);
+    top: 0;
+    margin: 0;
+    text-align: center;
+}

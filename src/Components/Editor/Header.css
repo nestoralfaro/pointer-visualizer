@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3em 1em 0 1em;
+    background-color: #161b22;
+    color: #c9d1d9;
+}
+
+header {
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 1.7em;
+}
+
+.title::after{
+    content: ' by Nestor Alfaro';
+    display: block;
+    transform: translateY(0.5rem);
+    font-size: 0.7rem;
+}

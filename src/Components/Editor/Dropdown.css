@@ -1,0 +1,35 @@
+.menu {
+  position: relative;
+  width: 200px;
+  z-index: 4;
+}
+
+.menu::before {
+  content: 'Snippets';
+  font-size: small;
+}
+  
+.item {
+  position: relative;
+  background-color: #161b22;
+  box-sizing: border-box;
+  cursor: pointer;
+  color: #c9d1d9;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  transition: background-color 150ms ease-in-out;
+  z-index: 1;
+}
+
+.item:hover {
+  color: #ecf0f3;
+}
+
+.open {
+  position: absolute;
+  transition: 500ms;
+  top: 100%;
+  width: 100%;
+  z-index: 4;
+}

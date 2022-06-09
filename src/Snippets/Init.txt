@@ -1,0 +1,16 @@
+
+struct Node {
+  auto data;
+  Node* next;
+};
+
+Node* head = new Node;
+Node* a = new Node;
+a->val = '1';
+Node* b = new Node;
+b->val = '7';
+a->next = b;
+b->next = null;
+a = b;
+Node* z = new Node;
+z->next = b;

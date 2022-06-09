@@ -1,0 +1,66 @@
+.ToggleSwitch {
+	position: relative;
+	width: 5rem;
+	height: 2.35rem;
+	display: inline-block;
+}
+
+.ToggleSwitch::before {
+    display: block;
+    content: 'Links';
+    text-align: center;
+    transform: translateX(-10px) translateY(-10px);
+    font-size: small;
+}
+
+.Slider {
+    border-radius: 15rem;
+    background: #161b22;
+    border: 1px solid #c9d1d9;
+}
+
+.Slider:before {
+    border-radius: 50%;
+}
+
+.ToggleSwitch__wrapper {
+    position: relative;
+    width: 3.5rem;
+    height: 1.5rem;
+}
+
+.Slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: .4s ease;
+}
+
+.Slider:before {
+    width: 1.5rem;
+    height: 1.5rem;
+    position: absolute;
+    background: #c9d1d9;
+    content: '';
+    margin: 0;
+    padding: 0;
+    top: 50%;
+    left: 0.10rem;
+    transform: translateY(-50%);
+    transition: .4s;
+    cursor: pointer;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.isChecked {
+    background: #c9d1d9;
+}
+
+.isChecked:before {
+    left: calc(100% - 0.10rem - 1.5rem);
+    background: #161b22;
+    border: 1px solid #c9d1d9;
+}

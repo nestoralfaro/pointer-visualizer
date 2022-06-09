@@ -1,0 +1,13 @@
+struct Node {
+    auto data;
+    Node* next;
+};
+
+// Allocating dynamic memory
+Node* front = new Node;
+Node* a = new Node;
+Node* rear = new Node;
+
+// Setting up Nodes
+front->next = a;
+a->next = rear;
