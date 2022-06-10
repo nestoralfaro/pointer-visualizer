@@ -18,4 +18,4 @@ Get to try it out yourself [here](https://nestoralfaro.github.io/pointer-visuali
 
 ## Source Code
 
-Created with [Create React App](https://github.com/facebook/create-react-app). Change branch to [master](https://github.com/nestoralfaro/pointer-visualizer/tree/master) to see source code.
+Created with [Create React App](https://github.com/facebook/create-react-app) and `TypeScript`. Change branch to [master](https://github.com/nestoralfaro/pointer-visualizer/tree/master) to see source code.
