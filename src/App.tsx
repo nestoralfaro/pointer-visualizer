@@ -17,9 +17,9 @@ function App() {
 /* more comments */
 Node* head = new Node;
 Node* a = new Node;
-a->val = '1';
+a->data = '1';
 Node* b = new Node;
-b->val = '7';
+b->data = '7';
 a->next = b;
 b->next = null;
 a = b;
