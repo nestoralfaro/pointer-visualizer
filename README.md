@@ -8,7 +8,7 @@ Here are a few things to keep in mind before you check it out:
 - Some things may still be a little buggy. Will try my best to fix them promptly. Sorry about that :(
 - Hope you have fun, but mainly that you get to clarify some doubts about pointers :)
 
-Made with all ♥
+Made with all :heart: and some :coffee:
 
 ## Demo
 
